@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="Setup TailwindCSS" />
+    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/shared/components/navigation/navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/design-details/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/design-feed/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/edit-profile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/profile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/upload-file/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/shared/components/example.jsx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="TASK-TailwindUI_Setup" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,23 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "18.14.0",
-    "javascript.nodejs.core.library.typings.version": "18.14.0",
-    "last_opened_file_path": "/Users/mansoor/Documents/Professional/Projects/Courtesy Projects/Haseeb's Project/digifolio-frontend-app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;FEATURE-Routes&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.14.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.14.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mansoor/Documents/Professional/Projects/Courtesy Projects/Haseeb's Project/digifolio-frontend-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
@@ -71,6 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1685657771769</updated>
       <workItem from="1685657772886" duration="2076000" />
+      <workItem from="1685659904060" duration="423000" />
+      <workItem from="1685710991504" duration="231000" />
     </task>
     <task id="LOCAL-00001" summary="Setup TailwindCSS">
       <created>1685659834047</created>
