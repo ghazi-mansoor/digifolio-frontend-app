@@ -2,6 +2,7 @@ import SignedInNavbar from "@/app/shared/components/navigation/signed-in-navbar"
 import Footer from "@/app/shared/components/layout/footer";
 import DesignDetailsHeader from "@/app/features/design-details/components/design-detail-header";
 import DesignFileImage from "@/app/features/design-feed/components/design-file-image";
+import DesignFileComments from "@/app/features/design-details/components/design-file-comments";
 
 const designFile = {
         id: 1,
@@ -21,7 +22,7 @@ export default function DesignDetails() {
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full">
                 <DesignDetailsHeader designer={designFile.designer} fileTitle={designFile.title} />
                 <DesignFileImage fileURL={designFile.source} fileTitle={designFile.title} />
-
+                <DesignFileComments />
             </div>
             <Footer />
         </div>

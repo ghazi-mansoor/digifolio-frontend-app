@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="add design file image">
-      <change afterPath="$PROJECT_DIR$/app/features/design-details/components/design-file-comments.js" afterDir="false" />
+    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="add rounded corners">
+      <change afterPath="$PROJECT_DIR$/app/features/design-details/components/add-comment-form.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/design-details/components/comment.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/design-details/components/comments.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/design-details/components/design-file-comments.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/features/design-feed/components/design-file-image.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-feed/components/design-file-image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/features/design-details/components/design-detail-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-details/components/design-detail-header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/features/design-details/components/design-details.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-details/components/design-details.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/features/design-details/components/design-file-comments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/features/design-feed/components/design-feed-grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-feed/components/design-feed-grid.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/features/design-feed/components/design-file-image.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-feed/components/design-file-image.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685725544070</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add rounded corners">
+      <created>1685725722927</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685725722927</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +208,7 @@
     <MESSAGE value="add name of designer" />
     <MESSAGE value="pass file details as prop to header" />
     <MESSAGE value="add design file image" />
-    <option name="LAST_COMMIT_MESSAGE" value="add design file image" />
+    <MESSAGE value="add rounded corners" />
+    <option name="LAST_COMMIT_MESSAGE" value="add rounded corners" />
   </component>
 </project>
