@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="add heart icon">
+    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="add name of designer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/features/design-details/components/design-detail-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-details/components/design-detail-header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/features/design-details/components/design-details.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-details/components/design-details.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685724264790</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add name of designer">
+      <created>1685724367016</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685724367016</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +176,7 @@
     <MESSAGE value="Add id key" />
     <MESSAGE value="create design details header" />
     <MESSAGE value="add heart icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add heart icon" />
+    <MESSAGE value="add name of designer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add name of designer" />
   </component>
 </project>

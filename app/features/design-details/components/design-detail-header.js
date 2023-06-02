@@ -1,11 +1,11 @@
 import { HeartIcon } from '@heroicons/react/20/solid'
-export default function DesignDetailsHeader() {
+export default function DesignDetailsHeader({designer, fileTitle}) {
     return (
         <div className="pb-5">
             <div className="md:flex md:items-center md:justify-between">
                 <div>
-                    <h3 className="text-2xl font-bold leading-7 text-gray-900">Mobile App Design: Fitness App</h3>
-                    <p className="mt-3 pointer-events-none truncate text-base font-medium text-gray-900">John Doe</p>
+                    <h3 className="text-2xl font-bold leading-7 text-gray-900">{fileTitle}</h3>
+                    <p className="mt-3 pointer-events-none truncate text-base font-medium text-gray-900">{designer}</p>
                 </div>
                 <button
                     type="button"
