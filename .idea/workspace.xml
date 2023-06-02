@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="Add id key">
-      <change afterPath="$PROJECT_DIR$/app/features/design-details/components/design-detail-header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/features/design-details/components/design-details.jsx" afterDir="false" />
+    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="create design details header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/design-details/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/design-details/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/features/design-details/components/design-detail-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-details/components/design-detail-header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/features/design-feed/components/design-feed-grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-feed/components/design-feed-grid.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685718658579</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="create design details header">
+      <created>1685724114074</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685724114074</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +160,7 @@
     <MESSAGE value="Display designs in grid" />
     <MESSAGE value="Add icons" />
     <MESSAGE value="Add id key" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add id key" />
+    <MESSAGE value="create design details header" />
+    <option name="LAST_COMMIT_MESSAGE" value="create design details header" />
   </component>
 </project>

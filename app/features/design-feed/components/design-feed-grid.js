@@ -1,4 +1,4 @@
-import {ChatBubbleLeftIcon, EyeIcon, HeartIcon} from '@heroicons/react/20/solid'
+import { ChatBubbleLeftIcon, EyeIcon, HeartIcon } from '@heroicons/react/20/solid'
 
 const files = [
     {
