@@ -47,31 +47,27 @@ export default function SignedInNavbar() {
                                         <a href="#">
                                             <img
                                                 className="block h-8 w-auto"
-                                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                                src="https://tailwindui.com/img/logos/mark.svg?color=rose&shade=600"
                                                 alt="Your Company"
                                             />
                                         </a>
                                     </div>
                                 </div>
                                 <div className="min-w-0 flex-1 md:px-8 lg:px-0 xl:col-span-6">
-                                    <div className="flex items-center px-6 py-4 md:mx-auto md:max-w-3xl lg:mx-0 lg:max-w-none xl:px-0">
-                                        <div className="w-full">
-                                            <label htmlFor="search" className="sr-only">
-                                                Search
-                                            </label>
-                                            <div className="relative">
-                                                <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-                                                    <MagnifyingGlassIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
-                                                </div>
-                                                <input
-                                                    id="search"
-                                                    name="search"
-                                                    className="block w-full rounded-md border-0 bg-white py-1.5 pl-10 pr-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
-                                                    placeholder="Search"
-                                                    type="search"
-                                                />
-                                            </div>
-                                        </div>
+                                    <div className="hidden lg:flex items-center justify-center space-x-5 px-6 py-4 md:mx-auto md:max-w-3xl lg:mx-0 lg:max-w-none xl:px-0">
+                                        {navigation.map((item) => (
+                                            <a
+                                                key={item.name}
+                                                href={item.href}
+                                                aria-current={item.current ? 'page' : undefined}
+                                                className={classNames(
+                                                    item.current ? 'bg-gray-100 text-gray-900' : 'hover:bg-gray-50',
+                                                    'rounded-md py-2 px-3 text-base font-medium'
+                                                )}
+                                            >
+                                                {item.name}
+                                            </a>
+                                        ))}
                                     </div>
                                 </div>
                                 <div className="flex items-center md:absolute md:inset-y-0 md:right-0 lg:hidden">
@@ -88,7 +84,7 @@ export default function SignedInNavbar() {
                                 <div className="hidden lg:flex lg:items-center lg:justify-end xl:col-span-4">
                                     <a
                                         href="#"
-                                        className="ml-5 flex-shrink-0 rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                                        className="ml-5 flex-shrink-0 rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2"
                                     >
                                         <span className="sr-only">View notifications</span>
                                         <BellIcon className="h-6 w-6" aria-hidden="true" />
@@ -97,7 +93,7 @@ export default function SignedInNavbar() {
                                     {/* Profile dropdown */}
                                     <Menu as="div" className="relative ml-5 flex-shrink-0">
                                         <div>
-                                            <Menu.Button className="flex rounded-full bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                                            <Menu.Button className="flex rounded-full bg-white focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2">
                                                 <span className="sr-only">Open user menu</span>
                                                 <img className="h-8 w-8 rounded-full" src={user.imageUrl} alt="" />
                                             </Menu.Button>
@@ -133,7 +129,7 @@ export default function SignedInNavbar() {
 
                                     <a
                                         href="#"
-                                        className="ml-6 inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                        className="ml-6 inline-flex items-center rounded-md bg-pink-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600"
                                     >
                                         <PlusIcon className="-ml-0.5 mr-0.5 h-5 w-5" aria-hidden="true" />
                                         Upload Design
