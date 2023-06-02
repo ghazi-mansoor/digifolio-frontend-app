@@ -12,15 +12,12 @@ const user = {
 }
 
 const navigation = [
-    { name: 'Dashboard', href: '#', current: true },
-    { name: 'Calendar', href: '#', current: false },
-    { name: 'Teams', href: '#', current: false },
-    { name: 'Directory', href: '#', current: false },
+    { name: 'Home', href: '#' },
+    { name: 'Blog', href: '#' }
 ]
 
 const userNavigation = [
     { name: 'Your Profile', href: '#' },
-    { name: 'Settings', href: '#' },
     { name: 'Sign out', href: '#' },
 ]
 
