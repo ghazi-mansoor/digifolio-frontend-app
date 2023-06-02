@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import { Menu, Popover, Transition } from '@headlessui/react'
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { PlusIcon } from '@heroicons/react/20/solid'
 
 const user = {
     name: 'Chelsea Hagon',
@@ -137,6 +138,7 @@ export default function SignedInNavbar() {
                                         href="#"
                                         className="ml-6 inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                     >
+                                        <PlusIcon className="-ml-0.5 mr-0.5 h-5 w-5" aria-hidden="true" />
                                         Upload Design
                                     </a>
                                 </div>
