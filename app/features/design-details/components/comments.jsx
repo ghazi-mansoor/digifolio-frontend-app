@@ -19,7 +19,7 @@ export default function Comments() {
             {
                 comments.map((comment) => {
                     return (
-                        <li>
+                        <li key={comment.id}>
                             <Comment comment={comment} />
                         </li>
                     )
