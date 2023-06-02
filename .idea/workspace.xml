@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="pass file details as prop to header">
-      <change afterPath="$PROJECT_DIR$/app/features/design-feed/components/design-file-image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/app_design_image.png" afterDir="false" />
+    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="add design file image">
+      <change afterPath="$PROJECT_DIR$/app/features/design-details/components/design-file-comments.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/features/design-details/components/design-details.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-details/components/design-details.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/features/design-feed/components/design-file-image.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-feed/components/design-file-image.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685724515006</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add design file image">
+      <created>1685725544070</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685725544070</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +193,7 @@
     <MESSAGE value="add heart icon" />
     <MESSAGE value="add name of designer" />
     <MESSAGE value="pass file details as prop to header" />
-    <option name="LAST_COMMIT_MESSAGE" value="pass file details as prop to header" />
+    <MESSAGE value="add design file image" />
+    <option name="LAST_COMMIT_MESSAGE" value="add design file image" />
   </component>
 </project>
