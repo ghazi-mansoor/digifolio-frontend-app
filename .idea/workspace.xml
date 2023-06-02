@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="add name of designer">
+    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="pass file details as prop to header">
+      <change afterPath="$PROJECT_DIR$/app/features/design-feed/components/design-file-image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app_design_image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/features/design-details/components/design-detail-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-details/components/design-detail-header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/features/design-details/components/design-details.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-details/components/design-details.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
@@ -158,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685724367016</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="pass file details as prop to header">
+      <created>1685724515006</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685724515006</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +186,7 @@
     <MESSAGE value="create design details header" />
     <MESSAGE value="add heart icon" />
     <MESSAGE value="add name of designer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add name of designer" />
+    <MESSAGE value="pass file details as prop to header" />
+    <option name="LAST_COMMIT_MESSAGE" value="pass file details as prop to header" />
   </component>
 </project>
