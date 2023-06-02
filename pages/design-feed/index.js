@@ -1,3 +1,9 @@
-export default function DesignFeed() {
-    return <>Signed in user's design feed</>
+import DesignFeed from "@/app/features/design-feed/components/design-feed";
+
+export default function DesignFeedPage() {
+    return (
+        <>
+            <DesignFeed />
+        </>
+    )
 }
