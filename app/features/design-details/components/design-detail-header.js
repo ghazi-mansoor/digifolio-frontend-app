@@ -5,7 +5,7 @@ export default function DesignDetailsHeader() {
             <div className="md:flex md:items-center md:justify-between">
                 <div>
                     <h3 className="text-2xl font-bold leading-7 text-gray-900">Mobile App Design: Fitness App</h3>
-
+                    <p className="mt-3 pointer-events-none truncate text-base font-medium text-gray-900">John Doe</p>
                 </div>
                 <button
                     type="button"

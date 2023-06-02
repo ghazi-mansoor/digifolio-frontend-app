@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="create design details header">
+    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="add heart icon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/features/design-details/components/design-detail-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-details/components/design-detail-header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/features/design-feed/components/design-feed-grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/design-feed/components/design-feed-grid.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685724114074</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add heart icon">
+      <created>1685724264790</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685724264790</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +167,7 @@
     <MESSAGE value="Add icons" />
     <MESSAGE value="Add id key" />
     <MESSAGE value="create design details header" />
-    <option name="LAST_COMMIT_MESSAGE" value="create design details header" />
+    <MESSAGE value="add heart icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="add heart icon" />
   </component>
 </project>
