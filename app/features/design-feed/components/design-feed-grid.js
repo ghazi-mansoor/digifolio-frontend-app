@@ -1,3 +1,5 @@
+import {ChatBubbleLeftIcon, EyeIcon, HeartIcon} from '@heroicons/react/20/solid'
+
 const files = [
     {
         title: 'File title',
@@ -67,18 +69,20 @@ export default function DesignFeedGrid() {
                             <span className="sr-only">View details for {file.title}</span>
                         </button>
                     </div>
-                    <div className="flex w-full flex-row items-center justify-between">
-                        <p className="pointer-events-none mt-2 block truncate text-sm font-medium text-gray-900">{file.designer}</p>
+                    <div className="flex w-full flex-row mt-2 items-center justify-between">
+                        <p className="pointer-events-none truncate text-sm font-medium text-gray-900">{file.designer}</p>
                         <div className="flex flex-row space-x-2">
-                            <p>
-
-                                <span className="pointer-events-none mt-2 block text-sm font-medium text-gray-500">{file.comments}</span>
+                            <p className="flex flex-row space-x-1 items-center">
+                                <ChatBubbleLeftIcon className="h-4 w-4 text-gray-400"/>
+                                <span className="pointer-events-none text-sm font-medium text-gray-500">{file.comments}</span>
                             </p>
-                            <p>
-                                <span className="pointer-events-none mt-2 block text-sm font-medium text-gray-500">{file.likes}</span>
+                            <p className="flex flex-row space-x-1 items-center">
+                                <HeartIcon className="h-4 w-4 text-gray-400"/>
+                                <span className="pointer-events-none text-sm font-medium text-gray-500">{file.likes}</span>
                             </p>
-                            <p>
-                                <span className="pointer-events-none mt-2 block text-sm font-medium text-gray-500">{file.views}</span>
+                            <p className="flex flex-row space-x-1 items-center">
+                                <EyeIcon className="h-4 w-4 text-gray-400"/>
+                                <span className="pointer-events-none text-sm font-medium text-gray-500">{file.views}</span>
                             </p>
                         </div>
                     </div>
