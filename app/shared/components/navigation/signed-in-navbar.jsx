@@ -11,8 +11,8 @@ const user = {
 }
 
 const navigation = [
-    { name: 'Home', href: '#' },
-    { name: 'Blog', href: '#' }
+    { name: 'Home', href: '/design-feed' },
+    { name: 'Blog', href: '/blog' }
 ]
 
 const userNavigation = [
@@ -43,7 +43,7 @@ export default function SignedInNavbar() {
                             <div className="relative flex justify-between lg:gap-8 xl:grid xl:grid-cols-12">
                                 <div className="flex md:absolute md:inset-y-0 md:left-0 lg:static xl:col-span-2">
                                     <div className="flex flex-shrink-0 items-center">
-                                        <a href="#">
+                                        <a href="/design-feed">
                                             <img
                                                 className="block h-8 w-auto"
                                                 src="https://tailwindui.com/img/logos/mark.svg?color=rose&shade=600"
