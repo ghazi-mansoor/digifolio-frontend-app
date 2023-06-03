@@ -1,3 +1,7 @@
-export default function EditProfile() {
-    return <div>User's edit profile page</div>
+import EditProfile from "@/app/features/edit-profile/components/edit-profile";
+
+export default function EditProfilePage() {
+    return (
+        <EditProfile />
+    );
 }

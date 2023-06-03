@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="change profile to portfolio">
-      <change beforePath="$PROJECT_DIR$/pages/profile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/edit-profile/components/edit-profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/edit-profile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/edit-profile/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="FEATURE-Design_Details" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,7 +31,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "FEATURE-Edit__Profile",
     "javascript.nodejs.core.library.configured.version": "18.14.0",
     "javascript.nodejs.core.library.typings.version": "18.14.0",
     "last_opened_file_path": "/Users/mansoor/Documents/Professional/Projects/Courtesy Projects/Haseeb's Project/digifolio-frontend-app",
@@ -79,6 +81,7 @@
       <workItem from="1685657772886" duration="2076000" />
       <workItem from="1685659904060" duration="423000" />
       <workItem from="1685710991504" duration="231000" />
+      <workItem from="1685800127517" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="Setup TailwindCSS">
       <created>1685659834047</created>
@@ -199,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685734475947</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="change profile to portfolio">
+      <created>1685734501381</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1685734501381</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
