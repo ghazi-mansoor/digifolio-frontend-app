@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="create edit-profile.jsx">
+    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="add menu link to edit profile">
+      <change afterPath="$PROJECT_DIR$/app/features/upload-file/components/file-upload.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/shared/components/navigation/signed-in-navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/shared/components/navigation/signed-in-navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/upload-file/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/upload-file/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "FEATURE-Upload__File",
     "javascript.nodejs.core.library.configured.version": "18.14.0",
     "javascript.nodejs.core.library.typings.version": "18.14.0",
     "last_opened_file_path": "/Users/mansoor/Documents/Professional/Projects/Courtesy Projects/Haseeb's Project/digifolio-frontend-app",
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685800338372</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add menu link to edit profile">
+      <created>1685801327750</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1685801327750</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +249,7 @@
     <MESSAGE value="add back to dashboard button" />
     <MESSAGE value="change profile to portfolio" />
     <MESSAGE value="create edit-profile.jsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="create edit-profile.jsx" />
+    <MESSAGE value="add menu link to edit profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="add menu link to edit profile" />
   </component>
 </project>

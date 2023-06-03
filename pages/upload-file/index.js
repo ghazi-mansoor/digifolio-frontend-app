@@ -1,3 +1,7 @@
-export default function FileUpload() {
-    return <div>User's design upload page..</div>;
+import FileUpload from "@/app/features/upload-file/components/file-upload";
+
+export default function FileUploadPage() {
+    return (
+        <FileUpload />
+    );
 }
