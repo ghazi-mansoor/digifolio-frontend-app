@@ -31,7 +31,7 @@ export default function BlogArticle() {
                   <p className="text-base font-semibold leading-7 text-indigo-600">{article.author.name}</p>
                   <h1>{article.title}</h1>
                   {
-                      article.paragraphs.map(paragraph => <p>{paragraph}</p>)
+                      article.paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)
                   }
               </article>
           </div>

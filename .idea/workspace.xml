@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="create blog list">
-      <change afterPath="$PROJECT_DIR$/app/features/blog-article/components/blog-article.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/article/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/features/blog-article/components/blog-article.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/blog-article/components/blog-article.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="FEATURE-Article" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,7 +30,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "FEATURE-Article",
+    "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "18.14.0",
     "javascript.nodejs.core.library.typings.version": "18.14.0",
     "last_opened_file_path": "/Users/mansoor/Documents/Professional/Projects/Courtesy Projects/Haseeb's Project/digifolio-frontend-app",
@@ -258,14 +257,20 @@
       <option name="project" value="LOCAL" />
       <updated>1685805553647</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="create blog article">
+      <created>1685809028826</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1685809028826</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setup TailwindCSS" />
     <MESSAGE value="Create feature routes" />
     <MESSAGE value="Create signed in navbar" />
     <MESSAGE value="Add plus icon" />
@@ -290,6 +295,7 @@
     <MESSAGE value="create file upload form component" />
     <MESSAGE value="create blog page" />
     <MESSAGE value="create blog list" />
-    <option name="LAST_COMMIT_MESSAGE" value="create blog list" />
+    <MESSAGE value="create blog article" />
+    <option name="LAST_COMMIT_MESSAGE" value="create blog article" />
   </component>
 </project>
