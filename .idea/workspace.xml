@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="create file upload component">
+    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="fix edit profile form width">
+      <change afterPath="$PROJECT_DIR$/app/features/upload-file/components/file-upload-form.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/features/edit-profile/components/edit-profile-form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/edit-profile/components/edit-profile-form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/features/upload-file/components/file-upload.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/upload-file/components/file-upload.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685801952671</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix edit profile form width">
+      <created>1685802473831</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1685802473831</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +265,7 @@
     <MESSAGE value="create edit-profile.jsx" />
     <MESSAGE value="add menu link to edit profile" />
     <MESSAGE value="create file upload component" />
-    <option name="LAST_COMMIT_MESSAGE" value="create file upload component" />
+    <MESSAGE value="fix edit profile form width" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix edit profile form width" />
   </component>
 </project>
