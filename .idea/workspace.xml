@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="change profile to portfolio">
-      <change afterPath="$PROJECT_DIR$/app/features/edit-profile/components/edit-profile.jsx" afterDir="false" />
+    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="create edit-profile.jsx">
+      <change afterPath="$PROJECT_DIR$/app/features/edit-profile/components/edit-profile-form.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/edit-profile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/edit-profile/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/features/edit-profile/components/edit-profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/edit-profile/components/edit-profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/shared/components/navigation/signed-in-navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/shared/components/navigation/signed-in-navbar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
       <workItem from="1685657772886" duration="2076000" />
       <workItem from="1685659904060" duration="423000" />
       <workItem from="1685710991504" duration="231000" />
-      <workItem from="1685800127517" duration="188000" />
+      <workItem from="1685800127517" duration="1061000" />
     </task>
     <task id="LOCAL-00001" summary="Setup TailwindCSS">
       <created>1685659834047</created>
@@ -209,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685734501381</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="create edit-profile.jsx">
+      <created>1685800338372</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1685800338372</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +242,7 @@
     <MESSAGE value="add comment" />
     <MESSAGE value="add back to dashboard button" />
     <MESSAGE value="change profile to portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="change profile to portfolio" />
+    <MESSAGE value="create edit-profile.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="create edit-profile.jsx" />
   </component>
 </project>
