@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="add key to article paragraph">
-      <change afterPath="$PROJECT_DIR$/app/features/sign-in/components/sign-in.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/sign-in/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/sign-up/components/sign-up.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/sign-up/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/features/sign-in/components/sign-in.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/sign-in/components/sign-in.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="FEATURE-Sign_In" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "FEATURE-Sign__In",
+    "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "18.14.0",
     "javascript.nodejs.core.library.typings.version": "18.14.0",
     "last_opened_file_path": "/Users/mansoor/Documents/Professional/Projects/Courtesy Projects/Haseeb's Project/digifolio-frontend-app",
@@ -273,14 +274,20 @@
       <option name="project" value="LOCAL" />
       <updated>1685809178361</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add sign in page">
+      <created>1685842140465</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1685842140465</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create signed in navbar" />
     <MESSAGE value="Add plus icon" />
     <MESSAGE value="Create Footer" />
     <MESSAGE value="Create design feed header" />
@@ -305,6 +312,7 @@
     <MESSAGE value="create blog list" />
     <MESSAGE value="create blog article" />
     <MESSAGE value="add key to article paragraph" />
-    <option name="LAST_COMMIT_MESSAGE" value="add key to article paragraph" />
+    <MESSAGE value="Add sign in page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add sign in page" />
   </component>
 </project>

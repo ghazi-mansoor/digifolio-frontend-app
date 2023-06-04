@@ -1,22 +1,26 @@
-export default function SignIn() {
+export default function SignUp() {
     return (
         <>
             <div className="flex min-h-full flex-1">
                 <div className="flex flex-1 flex-col justify-center px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
                     <div className="mx-auto w-full max-w-sm lg:w-96">
                         <div>
-                            <img
-                                className="h-10 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=pink&shade=600"
-                                alt="Your Company"
-                            />
+                            <a
+                                href="/"
+                            >
+                                <img
+                                    className="h-10 w-auto"
+                                    src="https://tailwindui.com/img/logos/mark.svg?color=pink&shade=600"
+                                    alt="Your Company"
+                                />
+                            </a>
                             <h2 className="mt-8 text-2xl font-bold leading-9 tracking-tight text-gray-900">
-                                Sign in to your account
+                               Create your account
                             </h2>
                             <p className="mt-2 text-sm leading-6 text-gray-500">
-                                Not a member?{' '}
-                                <a href="/sign-up" className="font-semibold text-indigo-600 hover:text-indigo-500">
-                                    Sign up for free
+                                Already a member?{' '}
+                                <a href="/sign-in" className="font-semibold text-indigo-600 hover:text-indigo-500">
+                                    Sign in
                                 </a>
                             </p>
                         </div>
@@ -75,7 +79,7 @@ export default function SignIn() {
                                             type="submit"
                                             className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                         >
-                                            Sign in
+                                            Sign up
                                         </button>
                                     </div>
                                 </form>
@@ -92,5 +96,5 @@ export default function SignIn() {
                 </div>
             </div>
         </>
-    )
+    );
 }
