@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="create blog list">
+    <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="add key to article paragraph">
+      <change afterPath="$PROJECT_DIR$/app/features/landing-page/components/landing-page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/features/blog-article/components/blog-article.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/features/blog-article/components/blog-article.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="FEATURE-Article" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,7 +31,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "FEATURE-Landing__Page",
     "javascript.nodejs.core.library.configured.version": "18.14.0",
     "javascript.nodejs.core.library.typings.version": "18.14.0",
     "last_opened_file_path": "/Users/mansoor/Documents/Professional/Projects/Courtesy Projects/Haseeb's Project/digifolio-frontend-app",
@@ -81,6 +82,7 @@
       <workItem from="1685659904060" duration="423000" />
       <workItem from="1685710991504" duration="231000" />
       <workItem from="1685800127517" duration="1061000" />
+      <workItem from="1685840766495" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="Setup TailwindCSS">
       <created>1685659834047</created>
@@ -264,14 +266,20 @@
       <option name="project" value="LOCAL" />
       <updated>1685809028826</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add key to article paragraph">
+      <created>1685809178361</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1685809178361</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create feature routes" />
     <MESSAGE value="Create signed in navbar" />
     <MESSAGE value="Add plus icon" />
     <MESSAGE value="Create Footer" />
@@ -296,6 +304,7 @@
     <MESSAGE value="create blog page" />
     <MESSAGE value="create blog list" />
     <MESSAGE value="create blog article" />
-    <option name="LAST_COMMIT_MESSAGE" value="create blog article" />
+    <MESSAGE value="add key to article paragraph" />
+    <option name="LAST_COMMIT_MESSAGE" value="add key to article paragraph" />
   </component>
 </project>
