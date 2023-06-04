@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95c13d41-20db-45fc-8b17-3cae7fb75594" name="Changes" comment="add key to article paragraph">
-      <change afterPath="$PROJECT_DIR$/app/features/landing-page/components/landing-page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/features/sign-in/components/sign-in.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/sign-in/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "FEATURE-Landing__Page",
+    "git-widget-placeholder": "FEATURE-Sign__In",
     "javascript.nodejs.core.library.configured.version": "18.14.0",
     "javascript.nodejs.core.library.typings.version": "18.14.0",
     "last_opened_file_path": "/Users/mansoor/Documents/Professional/Projects/Courtesy Projects/Haseeb's Project/digifolio-frontend-app",
